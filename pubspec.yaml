@@ -1,0 +1,34 @@
+name: meald_admin
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  http: ^1.2.2
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  fl_chart: ^0.69.0
+  url_launcher: ^6.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  table_calendar: ^3.0.0
+  provider: ^6.1.2
+  flutter_lints: ^3.0.0
+  url_launcher: ^6.1.10
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/profile_picture.jpg
+
+    
